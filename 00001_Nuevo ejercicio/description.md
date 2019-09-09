@@ -1,5 +1,7 @@
 Un `bloque de código` también llamado `lambda` o `función anónima` es un objeto que puede almacenar una porción de código. Al ser un objeto, puedo guardármelo, pasarlo por parámetro, mandarle algunos mensajes... en definitiva todas las acciones que puedo hacer con cualquier objeto.
 
+Para crear un bloque, encerramos el código que queremos que el bloque almacene entre llaves `{` y `}` (¡ojo,  no confundir con paréntesis!).
+
 ¡Probablo! Hace las siguientes consultas en la consola: 
  
 > `{1 + 2}`
@@ -15,4 +17,4 @@ Si probás evaluar
 vas a ver que sigue sin hacer la cuenta, se la guarda. ¿Cómo hacemos para pedirle que lo ejecute?
 > `bloque.apply()`
 
-Ahora sí, vemos el resultado.
+Ahora sí, vemos el resultado de la cuenta.
