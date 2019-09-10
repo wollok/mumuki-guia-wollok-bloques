@@ -4,7 +4,6 @@ layout: input_bottom
 editor: custom
 type: problem
 extra_visible: true
-language: text
 manual_evaluation: false
 choices: []
 name: "¿Y esto para qué sirve?"
