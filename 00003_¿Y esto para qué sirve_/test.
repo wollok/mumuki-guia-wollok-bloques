@@ -1,5 +1,5 @@
 test "Configura el botón rojo para que pepita coma una manzana" {
   configuracion.configurarRobot()
   robot.rojo()
-  assert.equals("pepita[energia=180", pepita.toString()
+  assert.equals("pepita[energia=180", pepita.toString())
 }
