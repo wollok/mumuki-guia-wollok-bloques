@@ -3,3 +3,9 @@ test "Configura el botón rojo para que pepita coma una manzana" {
   robot.rojo()
   assert.equals("pepita[energia=180]", pepita.toString())
 }
+
+test "Configura el botón azul para que pepita vuele 20km" {
+  configuracion.configurarRobot()
+  robot.azul()
+  assert.equals("pepita[energia=70]", pepita.toString())
+}
