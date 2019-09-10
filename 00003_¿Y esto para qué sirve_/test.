@@ -1,6 +1,8 @@
-test "Al presionar el botón rojo el robot ejecuta la acción roja" {
+test "Configura el botón rojo para que pepita" {
   var ejecutoRojo = false
-  robot.accionRojo { ejecuto = true }
+  var ejecutoAzul = false
+  robot.accionRojo { ejecutoRojo = true }
+  robot.accionAzul { ejecutoAzul = true }
   assert.that(ejecuto)
 }
 

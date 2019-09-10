@@ -14,3 +14,4 @@ Te recomiendo jugar primero en la consola para aprender a configurar el robot, p
 
 > pepita.estaCansada()
 
+Luego, modificar el objeto `configuracion` para que cuando se presione el botón rojo, el robot le de de comer una manzana a pepita y cuando se ejecute el boton azul, el robot le pida a pepita que vuele 20km.
