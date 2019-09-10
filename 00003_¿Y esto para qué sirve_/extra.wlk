@@ -30,11 +30,10 @@ object manzana {
 	method energia() = 80
 }
 
-object mijo {
-	var mijoSeco = 2
-	method mijoMojado() {
-		mijoSeco += 8
-	}
-	
-//	method energia() = 
+object robot {
+  var property accionAzul = {}
+  var property accionRojo = {}
+  
+  method azul() { accionAzul.apply() }
+  method rojo() { accionRojo.apply() }
 }
