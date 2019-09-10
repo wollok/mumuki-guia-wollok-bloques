@@ -1,25 +1,5 @@
-test "Configura el botón rojo para que pepita" {
-  var ejecutoRojo = false
-  var ejecutoAzul = false
-  robot.accionRojo { ejecutoRojo = true }
-  robot.accionAzul { ejecutoAzul = true }
-  assert.that(ejecuto)
-}
-
-test "Al presionar el botón rojo el robot no ejecuta la acción azul" {
-  var ejecuto = false
-  robot.accionRojo { ejecuto = true }
-  assert.that(ejecuto)
-}
-
-test "Al presionar el botón rojo el robot ejecuta la acción roja" {
-  var ejecuto = false
-  robot.accionRojo { ejecuto = true }
-  assert.that(ejecuto)
-}
-
-test "Al presionar el botón rojo el robot ejecuta la acción roja" {
-  var ejecuto = false
-  robot.accionRojo { ejecuto = true }
-  assert.that(ejecuto)
+test "Configura el botón rojo para que pepita coma una manzana" {
+  configuracion.configurarRobot()
+  robot.rojo()
+  assert.equals("pepita[energia=180", pepita.toString()
 }
