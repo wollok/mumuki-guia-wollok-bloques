@@ -1,7 +1,7 @@
 ---
 tags: []
 layout: input_bottom
-editor: custom
+editor: code
 type: problem
 extra_visible: true
 manual_evaluation: false
