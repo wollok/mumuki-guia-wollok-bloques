@@ -6,3 +6,5 @@ Con esta idea en mente hemos construido un robot configurable que nos va a permi
 
 Para ello, el robot entiende los mensajes `accionAzul` y `accionRojo` que reciben un bloque por parámetro y lo almacenan. Y entiende los mensajes `azul` y `rojo` que respectivamente ejecutan las acciones almacenadas.
 
+P
+
