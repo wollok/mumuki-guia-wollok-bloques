@@ -1,9 +1,10 @@
 ---
 tags: []
 layout: input_bottom
-editor: code
+editor: text
 type: problem
 extra_visible: true
+language: text
 manual_evaluation: false
 choices: []
 name: "¿Y esto para qué sirve?"
