@@ -6,3 +6,4 @@ Probemos ahora una nueva versión de pepita, entiende un mensaje `haceSiEstasCan
 
 > pepita.haceSiEstasCansada({ pepita.comer(manzana) })
 
+Podés probar pasarle diferentes acciones para hacer, y también verificar que sólo las ejecuta cuando está cansada.
