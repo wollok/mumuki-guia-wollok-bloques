@@ -9,6 +9,8 @@ Para ello, el robot entiende los mensajes `accionAzul` y `accionRojo` que recibe
 Te recomiendo jugar primero en la consola para aprender a configurar el robot, por ejemplo podés probar configurar que el botón azul haga volar a pepita y luego verificar que está cansada:
 
 > robot.accionAzul({ pepita.volar(20) })
+
 > robot.azul()
+
 > pepita.estaCansada()
 
