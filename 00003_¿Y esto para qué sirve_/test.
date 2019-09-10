@@ -1,3 +1,23 @@
-test "" {
-  assert.equals(1,1)
+test "Al presionar el botón rojo el robot ejecuta la acción roja" {
+  var ejecutoRojo = false
+  robot.accionRojo { ejecuto = true }
+  assert.that(ejecuto)
+}
+
+test "Al presionar el botón rojo el robot no ejecuta la acción azul" {
+  var ejecuto = false
+  robot.accionRojo { ejecuto = true }
+  assert.that(ejecuto)
+}
+
+test "Al presionar el botón rojo el robot ejecuta la acción roja" {
+  var ejecuto = false
+  robot.accionRojo { ejecuto = true }
+  assert.that(ejecuto)
+}
+
+test "Al presionar el botón rojo el robot ejecuta la acción roja" {
+  var ejecuto = false
+  robot.accionRojo { ejecuto = true }
+  assert.that(ejecuto)
 }
