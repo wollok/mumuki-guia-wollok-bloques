@@ -6,5 +6,7 @@ Con esta idea en mente hemos construido un robot configurable que nos va a permi
 
 Para ello, el robot entiende los mensajes `accionAzul` y `accionRojo` que reciben un bloque por parámetro y lo almacenan. Y entiende los mensajes `azul` y `rojo` que respectivamente ejecutan las acciones almacenadas.
 
-P
+Te recomiendo jugar primero en la consola para aprender a configurar el robot, por ejemplo podés probar configurar que el botón azul haga volar a pepita y luego verificar que está cansada:
+
+> 
 

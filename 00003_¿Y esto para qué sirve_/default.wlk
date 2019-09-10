@@ -1,5 +1,5 @@
-object programacion {
+objectprogramacion {
   method configurarRobot() {
-    // ... acá configura el robot.
+    // ... acá configura el robot
   }
 }
