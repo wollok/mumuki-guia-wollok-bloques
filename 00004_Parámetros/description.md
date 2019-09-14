@@ -26,6 +26,6 @@ y lo evaluamos así:
 
 En la consola, probá definir algunos bloques que esperan parámetros y ejecutalos, por ejemplo:
 
-* Definir un bloque que reciba el radio de un círculo y calcule su circunferencia. Utilizarlo para calcular la circunferencia de un círculo de lado 3.
-* Definir un bloque que permita calcular la superficie de un círculo. Utilizarlo para calcular la superficie de un círculo de lado 3.
+* Definir un bloque que reciba el radio de un círculo y calcule su circunferencia. Utilizarlo para calcular la circunferencia de un círculo de radio 3.
+* Definir un bloque que permita calcular la superficie de un círculo. Utilizarlo para calcular la superficie de un círculo de radio 3.
 * Definir un bloque que permita calcular la hipotenusa de un triángulo rectánculo usando el teorema de Pitágoras. Utilizarlo para calcular el tamaño de la hipotenusa de un triángulo rectángulo cuyos catetos tiene tamaños 3 y 4 respectivamente.
