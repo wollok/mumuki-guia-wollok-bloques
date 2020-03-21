@@ -4,8 +4,11 @@ Los bloques pueden realizar todo tipo de acciones y consultas. Por ejemplo podem
 
 Como ya sabemos, crear el bloque no va a tener ningún efecto, para que pase algo lo tenemos que ejecutar. Probá preguntarle a pepita si está feliz antes y después de crear el bloque y fijate qué pasa. Luego podés
 
-> `pepita.estaFeliz()`
-> `bloqueVolar = { pepita.volar(20) }`
+```
+pepita.estaFeliz()
+bloqueVolar = { pepita.volar(20) }
+```
+
 > `pepita.estaFeliz()`
 > `bloqueVolar.apply()`
 > `pepita.estaFeliz()`
