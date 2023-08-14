@@ -1,4 +1,4 @@
-Un `bloque de código` también llamado `lambda` o `función anónima` es un objeto que puede almacenar una porción de código. Al ser un objeto, puedo guardármelo, pasarlo por parámetro, mandarle algunos mensajes... en definitiva todas las acciones que puedo hacer con cualquier objeto.
+Un `bloque de código` también llamado `lambda` o `función anónima` es un objeto que puede almacenar una porción de código. Al ser un objeto, puedo guardármelo, pasarlo por parámetro, mandarle  algunos mensajes... en definitiva todas las acciones que puedo hacer con cualquier objeto.
 
 Para crear un bloque, encerramos el código que queremos que el bloque almacene entre llaves `{` y `}` (¡ojo,  no confundir con paréntesis!).
 
